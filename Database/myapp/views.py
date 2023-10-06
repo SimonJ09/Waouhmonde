@@ -132,15 +132,11 @@ def export_societe_to_csv(request):
             societe.nom,
             societe.secteur,
             societe.emails,
-            societe.telephone1
-            societe.telephone2,
-           
-            
+            societe.telephone1,
+            societe.telephone2,    
         ])
 
     return response
-
-
 
 def custom_404(request, exception):
     return render(request, 'Database/404.html', status=404)
