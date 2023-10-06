@@ -110,7 +110,7 @@ def export_personnes_to_csv(request):
     csv_writer.writerow([
         'Nom ',
         'Emails',
-        'Numéro 1',
+        'Tel 1',
     ])
 
     # Écrivez les données de la société dans le fichier CSV
@@ -118,7 +118,7 @@ def export_personnes_to_csv(request):
         csv_writer.writerow([
             personne.nom,
             personne.email,
-            personne.numero1,
+            personne.tel1,
           
         ])
 

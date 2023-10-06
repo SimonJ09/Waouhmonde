@@ -122,10 +122,8 @@ def export_societe_to_csv(request):
         'Nom de la société',
         'Secteur',
         'Emails',
-        'Numéro 1',
-        'Numéro 2',
-        'Numéro 3',
-        'Téléphone fixe',
+        'Tel 1',
+        'tel 2',
     ])
 
     # Écrivez les données de la société dans le fichier CSV
@@ -134,10 +132,10 @@ def export_societe_to_csv(request):
             societe.nom,
             societe.secteur,
             societe.emails,
-            societe.numero1,
-            societe.numero2,
-            societe.numero3,
-            societe.fixe,
+            societe.telep,hone1
+            societe.telephone2,
+           
+            
         ])
 
     return response
