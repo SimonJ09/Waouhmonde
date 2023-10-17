@@ -30,10 +30,10 @@ def contact_view(request):
             body = 'Nom: {}\nEmail: {}\nMessage:\n{}'.format(name, email, message)
 
             # Configurer les détails du serveur SMTP
-            smtp_server = 'smtp.gmail.com'  # Remplacez par le serveur SMTP de votre fournisseur de messagerie
+            smtp_server = 'smtp-relay.brevo.com'  # Remplacez par le serveur SMTP de votre fournisseur de messagerie
             smtp_port = 587  # Port SMTP (587 est généralement utilisé pour TLS)
             smtp_username = 'judesimongbeliana@gmail.com'  # Votre adresse e-mail
-            smtp_password = 'Simon09@09@09'  # Votre mot de passe
+            smtp_password = '39r5WMApafEy7OZN'  # Votre mot de passe
 
             # Créez un objet MIMEText pour l'e-mail
             msg = MIMEText(body)
